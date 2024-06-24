@@ -1,6 +1,5 @@
 import React from 'react'
 import Cabecalho from './Cabecalho'
-import MenuResponsivo from './MenuResponsivo'
 
 export default function Layout({children}) {
   return (

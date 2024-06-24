@@ -9,10 +9,9 @@ export default function Navegacao() {
     return setMenuAberto(!menuAberto)
   }
  
-
   return (
     <>
-      <nav className="mr-6 lg:w-3/5 xl:w-2/5 max-lg:hidden">
+      <nav className="mr-6 lg:w-3/5 2xl:w-2/5 max-lg:hidden">
         <ul className="flex justify-around text-xl font-semibold">
             <li className="hover:text-amber-400"><Link href={""}>Sobre</Link></li>
             <li className="hover:text-amber-500"><Link href={""}>Projetos</Link></li>
@@ -23,7 +22,6 @@ export default function Navegacao() {
 
       <button onClick={toggleMenu} className="border rounded-full bg-amber-400 p-2 hover:bg-amber-300 lg:hidden">
         {menuAberto ?  <X strokeWidth={1}/> : <MenuIcon strokeWidth={1}/>}
-        
       </button>
 
       {menuAberto && (
