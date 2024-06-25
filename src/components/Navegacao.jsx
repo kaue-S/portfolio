@@ -29,10 +29,10 @@ export default function Navegacao() {
       {menuAberto && (
         <nav className="bg-white absolute top-0 mt-14 mr-12 right-0 w-60 h-60 shadow-md border">
           <ul className="flex flex-col justify-around text-start h-full text-xl font-semibold text-black">
-              <li className="py-2 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><UserRound /> Sobre</Link></li>
-              <li className="py-2 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><Laptop /> Projetos</Link></li>
-              <li className="py-2 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><GraduationCap />Certificados</Link></li>
-              <li className="py-2 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><Mail /> Contato</Link></li>
+              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><UserRound /> Sobre</Link></li>
+              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><Laptop /> Projetos</Link></li>
+              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><GraduationCap />Certificados</Link></li>
+              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><Mail /> Contato</Link></li>
           </ul>
         </nav>
       ) }
