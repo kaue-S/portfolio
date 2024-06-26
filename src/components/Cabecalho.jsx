@@ -1,6 +1,3 @@
-
-
-import Link from 'next/link'
 import React from 'react'
 import Navegacao from './Navegacao'
 import Image from 'next/image'
