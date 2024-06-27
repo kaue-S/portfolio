@@ -17,7 +17,7 @@ export default function Inicio() {
 
         <article className=" mt-10 flex justify-center gap-5">
           <a href="/images/curriculo.pdf" download>
-            <button className='flex gap-2 items-center font-bold text-amber-400 p-3 rounded-full border-2 border-amber-400 hover:text-black bg-amber-400 bg-opacity-30 hover:bg-amber-400 hover:transition-colors'>
+            <button className='flex gap-2 items-center font-semibold text-amber-400 p-3 rounded-full border-2 border-amber-400 hover:text-black bg-amber-400 bg-opacity-30 hover:bg-amber-400 hover:transition-colors'>
               <Download /> Currículo
             </button>
           </a>
