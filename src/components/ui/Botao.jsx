@@ -1,9 +1,10 @@
+import { Download } from 'lucide-react'
 import React from 'react'
 
-export default function Botao() {
+export default function Botao({children}) {
   return (
-    <button className="px-2 border rounded-full">
-        teste
+    <button>
+      {children}
     </button>
   )
 }
