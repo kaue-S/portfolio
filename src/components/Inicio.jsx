@@ -4,8 +4,6 @@ import { Download } from 'lucide-react'
 import { stackDados } from '@/api/stacks'
 
 export default function Inicio() {
-  const primeirosQuatros = stackDados.slice(0, 4);
-  const ultimosQuatros = stackDados.slice(4, 8);
 
   return (
     <section className="">
@@ -43,34 +41,6 @@ export default function Inicio() {
           </div>
         ))}
       </article>
-
-      {/* <div className="flex justify-center items-center gap-6">
-
-      <div className='flex justify-between flex-col gap-7'>
-        {primeirosQuatros.map((item, index) =>(
-          <div key={index} className='flex bg-white text-black items-center gap-1 font-semibold p-3 rounded-full'>
-            <Image src={item.icone} alt={`icone do ${item.icone}`} width={25} height={25}/>
-            <p>{item.nome}</p>
-          </div>
-        ))}
-
-      </div>
-
-      <figure className="w-1/5 h-2/5 ">
-        <Image className="" src={"/images/foto.jpeg"} alt="foto do de perfil do" width={1156} height={1599} priority/>
-      </figure>
-
-      <div>
-        {ultimosQuatros.map((item, index) =>(
-          <div key={item} className='flex bg-white text-black items-center gap-1 font-semibold p-3 rounded-full'>
-            <Image src={item.icone} alt={`icone do ${item.icone}`} width={25} height={25}/>
-            <p>{item.nome}</p>
-          </div>
-        ))}
-      </div>
-      </div> */}
-
-
     </section>
   )
 }
