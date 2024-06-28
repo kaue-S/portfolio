@@ -14,7 +14,7 @@ export default function Navegacao() {
     <>
       <nav className="mr-6 lg:w-3/5 2xl:w-2/5 max-lg:hidden">
         <ul className="flex justify-around text-xl font-semibold">
-            <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md "><Link href={""}>Sobre</Link></li>
+            <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={""}>Sobre</Link></li>
             <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={""}>Projetos</Link></li>
             <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={""}>Certificados</Link></li>
             <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={""}>Contato</Link></li>
