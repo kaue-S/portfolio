@@ -3,13 +3,13 @@ import React from 'react'
 
 export default function SobreMim() {
   return (
-    <section>
+    <section className=" xl:w-4/5 m-auto mb-10">
         <div className=" relative flex justify-center sm:mt-10 lg:mt-28">
             <span className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Sobre Mim</span>
             <h1 className=" absolute xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-amber-400 tracking-wide">Sobre Mim</h1>
         </div>
 
-        <article className="border">
+        <article className="p-3 mt-10">
             <div className='flex items-center gap-5 '>
                 <div className="border-4 animate-fade-down border-amber-400 rounded-full p-1">
                     <figure className="w-10 h-10 xl:w-20 xl:h-20 rounded-full overflow-hidden">
@@ -19,8 +19,7 @@ export default function SobreMim() {
                 <div className=" relative flex justify-center">
                     <span className="xl:text-4xl lg:text-3xl sm:text-2xl text-xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Gosto de</span>
                     <h1 className=" absolute xl:text-4xl lg:text-3xl sm:text-2xl text-xl font-bold text-amber-400 tracking-wide">Gosto de</h1>
-                </div>
-            
+                </div> 
             </div>
             
             <div className="flex">
@@ -48,6 +47,15 @@ export default function SobreMim() {
                 </div>
             </div>
         </article>
+
+        <article className="p-10 mt-5 rounded-lg sobreMim">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, ullam omnis blanditiis accusamus inventore quis, deleniti distinctio quos iure voluptate iste temporibus cum enim amet aliquid similique at obcaecati unde.
+                Consequuntur, inventore distinctio cumque, atque aliquam qui accusantium perferendis eum totam quidem ullam, magnam expedita molestias perspiciatis praesentium iusto. Beatae sit ratione ducimus illum voluptas, iure voluptatum nisi minima tenetur.
+                Dicta quasi debitis necessitatibus nulla velit reiciendis porro inventore, modi qui minus impedit voluptates vero similique dolorum temporibus voluptatibus, libero iure reprehenderit doloribus doloremque, quaerat sunt tempora quisquam. Ducimus, molestias!
+            </p>
+        </article>
+
         
     </section>
   )
