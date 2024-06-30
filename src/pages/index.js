@@ -1,3 +1,4 @@
+import Formacao from "@/components/Formacao";
 import Inicio from "@/components/Inicio";
 import SobreMim from "@/components/SobreMim";
 
@@ -6,7 +7,8 @@ export default function Home() {
     <>
       <main className={`min-h-screen text-white w-full mt-24`}>
         <Inicio />
-        <SobreMim /><br />
+        <SobreMim /><hr/>
+        <Formacao />
       </main>
     </>
   );

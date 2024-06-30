@@ -10,13 +10,9 @@ export default function Inicio() {
 
       <article  className="flex flex-col-reverse md:flex-row justify-center items-center gap-7 md:gap-20">
             <div className="flex flex-col items-center justify-center lg:gap-3">
-
               <Image className="lg:w-16 lg:h-16" src={"/images/mao.png"} alt='icone de uma mão acenando' width={40} height={60}/>
-
               <h1 className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-center ">Olá, sou o <span className="text-amber-400 ">Kauê Evangelista</span></h1>
-
               <h2 className="text-center xl:text-4xl lg:text-3xl sm:text-2xl text-lg font-semibold">Desenvolvedor Web</h2>
-
               <div className="flex gap-5 mt-5 flex-wrap justify-center">
                 <a className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full shadow-sm" href={"https://github.com/kaue-S"} target='blank'>
                     <Image src={"/images/github.png"} alt={"Figura do github"} width={25} height={25}/>
@@ -37,7 +33,6 @@ export default function Inicio() {
                 <Download /> Currículo
                 </button>
               </a>
-
             </div>
 
             <div className="border-4 animate-fade-down border-amber-400 rounded-full p-1 md:mb-28">
