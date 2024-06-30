@@ -8,7 +8,7 @@ export default function Inicio() {
   return (
     <section className="mb-10">
 
-      <article  className="flex flex-col-reverse md:flex-row justify-center items-center gap-7 md:gap-20 md:h-80">
+      <article  className="flex flex-col-reverse md:flex-row justify-center items-center gap-7 md:gap-20">
             <div className="flex flex-col items-center justify-center lg:gap-3">
 
               <Image className="lg:w-16 lg:h-16" src={"/images/mao.png"} alt='icone de uma mão acenando' width={40} height={60}/>
@@ -17,7 +17,22 @@ export default function Inicio() {
 
               <h2 className="text-center xl:text-4xl lg:text-3xl sm:text-2xl text-lg font-semibold">Desenvolvedor Web</h2>
 
-              <a className='mt-4' href="/images/curriculo.pdf" download>
+              <div className="flex gap-5 mt-5 flex-wrap justify-center">
+                <a className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full shadow-sm" href={"https://github.com/kaue-S"} target='blank'>
+                    <Image src={"/images/github.png"} alt={"Figura do github"} width={25} height={25}/>
+                    <p>GitHub</p>
+                </a>
+                <a className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full" href={"https://www.linkedin.com/in/kau%C3%AA-evangelista/"} target='blank'>
+                    <Image src={"/images/002-money.png"} alt={"Icone do Linkedin"} width={25} height={25}/>
+                    <p>LinkedIn</p>
+                </a>
+                <a className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full" href={"https://www.instagram.com/kauesilva5/"} target='blank'>
+                    <Image src={"/images/instagram.png"} alt={"logotipo do instagram"} width={25} height={25}/>
+                    <p>Instagram</p>
+                </a>
+              </div>
+
+              <a className='mt-10 animate-bounce' href="/images/curriculo.pdf" download>
                 <button className='flex gap-2 items-center font-semibold text-amber-400 p-3 rounded-full border-2 border-amber-400 hover:text-black bg-amber-400 bg-opacity-30 hover:bg-amber-400 hover:transition-colors'>
                 <Download /> Currículo
                 </button>
@@ -25,8 +40,8 @@ export default function Inicio() {
 
             </div>
 
-            <div className="border-4 animate-fade-down border-amber-400 rounded-full p-1">
-              <figure className="w-40 h-40 md- xl:w-52 xl:h-52 rounded-full overflow-hidden">
+            <div className="border-4 animate-fade-down border-amber-400 rounded-full p-1 md:mb-28">
+              <figure className="w-40 h-40 md- lg:w-52 lg:h-52 rounded-full overflow-hidden">
                 <Image className='' src={"/images/foto.jpeg"} alt='minha foto' width={1186} height={1599} priority/>
               </figure>
             </div>

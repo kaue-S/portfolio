@@ -6,7 +6,7 @@ export default function Home() {
     <>
       <main className={`min-h-screen text-white w-full mt-24`}>
         <Inicio />
-        <SobreMim />
+        <SobreMim /><br />
       </main>
     </>
   );
