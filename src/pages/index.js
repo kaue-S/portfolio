@@ -8,7 +8,7 @@ export default function Home() {
     <>
       <main className={`min-h-screen text-white w-full mt-24`}>
         <Inicio />
-        <SobreMim /><hr className="border-amber-200"/>
+        <SobreMim />
         <Formacao />
         <Experiencia />
       </main>
