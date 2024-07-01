@@ -13,14 +13,14 @@ export default function Experiencia() {
         </div>
 
         <article className="bg-white p-4 md:p-6 rounded-3xl lg:w-4/5 m-auto mt-10">
-            <div>
-                <div>
+            <div className="flex  justify-between">
+                <div className="bg-black flex">
                     <figure>
                         <Image src={"/images/soldiesel.jfif"} alt="logotipo de uma empresa" width={30} height={30}/>
                     </figure>
                     <p>Soldiesel Comércio</p>
                 </div>
-                <p><CalendarDays /><time datetime="2013-07">Jul 2013</time> - <time datetime="2020-12">Dez 2020</time></p>
+                <p className="text-black flex"><CalendarDays /><time datetime="2013-07">Jul 2013</time> - <time datetime="2020-12">Dez 2020</time></p>
             </div>
             <div>
                 <figure>
