@@ -13,29 +13,3 @@ body {
   background-color: rgb(15, 15, 15);
 }
 
-.fundoCards{
-  background-color: #D1CDC1;
-}
-
-.fundoCards:hover{
-  background-color: #fff;
-  transition: 0.3s;
-}
-
-.formacao{
-  background-color: white;
-}
-
-.fundoCards:hover .formacao{
-  background-color: #FCEFCC;
-  transition: 0.3s;
-}
-
-.tag{
-  background-color: white;
-}
-
-.fundoCards:hover .tag{
-  background-color: rgb(236, 233, 233);
-  transition: 0.3s;
-}

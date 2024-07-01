@@ -16,7 +16,7 @@ export default function Experiencia() {
             <div className="flex  justify-between">
                 <div className="bg-black flex">
                     <figure>
-                        <Image src={"/images/soldiesel.jfif"} alt="logotipo de uma empresa" width={30} height={30}/>
+                            <Image src={"/images/soldiesel.jfif"} alt="logotipo de uma empresa" width={30} height={30}/>
                     </figure>
                     <p>Soldiesel Comércio</p>
                 </div>

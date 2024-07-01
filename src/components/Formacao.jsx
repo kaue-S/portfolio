@@ -10,10 +10,10 @@ export default function Formacao() {
         <h1 className=" absolute xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-amber-400 tracking-wide">Formação</h1>
       </div>
 
-      <article className="fundoCards mt-10 m-auto sm:w-4/5 lg:w-[600px] p-4 md:p-6 rounded-3xl flex flex-col justify-around gap-5">
+      <article className=" bg-slate-50 mt-10 m-auto sm:w-4/5 lg:w-[600px] p-4 md:p-6 rounded-3xl flex flex-col justify-around gap-5">
         <div className="flex justify-between">
           <p className="text-amber-400 font-semibold bg-zinc-900 px-3 md:px-4 py-2 flex items-center rounded-full gap-2 shadow-lg"><CalendarDays width={20}/> 2023 - 2024</p>
-          <p className="text-black font-semibold flex items-center formacao px-2 md:px-4 rounded-full gap-2 shadow-lg "><Image src={"/images/education.png"} alt="figura de formatura" width={20} height={20}/>Técnico</p>
+          <p className="text-black bg-amber-200 font-semibold flex items-center px-2 md:px-4 rounded-full gap-2 shadow-lg "><Image src={"/images/education.png"} alt="figura de formatura" width={20} height={20}/>Técnico</p>
         </div>
         <h1 className="text-black font-bold text-2xl">Técnico em informática para internet</h1>
 
