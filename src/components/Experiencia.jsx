@@ -61,7 +61,7 @@ export default function Experiencia() {
                 <figure className="bg-black flex items-center rounded-full p-1 pr-3 gap-1 justify-around shadow-lg">
                     <Image src={"/images/motoboy.png"} alt="logotipo de uma empresa" width={55} height={55} className="rounded-full"/>
                         <figcaption>
-                            <p className="text-amber-400 font-bold text-nowrap text-xl">Motoboy Autônomo</p>
+                            <p className="text-amber-400 font-bold text-nowrap text-xl">Motoboy</p>
                         </figcaption>
                 </figure>
                     
@@ -79,25 +79,13 @@ export default function Experiencia() {
             <article className="flex flex-col gap-5  text-black">
                 <div className='flex items-start'>
                     <Triangle className="rotate-90 min-w-8" strokeWidth={1}/>
-                    <p>Separação de mercadorias e empacotamento</p>
+                    <p>Atualmente trabalhando com entrega de itens entre usuários (uber / 99)</p>
                 </div>
                 <div className='flex items-start'>
                     <Triangle className="rotate-90 min-w-8" strokeWidth={1}/>
-                    <p>Recebimeto de mercadorias</p>
+                    <p>delivery (ifood e restaurantes particulares)</p>
                 </div>
-                <div className='flex items-start'>
-                    <Triangle className="rotate-90 min-w-8" strokeWidth={1}/>
-                    <p>Organização de estoque</p>
-                </div>
-                <div className='flex items-start'>
-                    <Triangle className="rotate-90 min-w-8" strokeWidth={1}/>
-                    <p>Despacho para transporte</p>
-                </div>
-                <div className='flex items-start'>
-                    <Triangle className="rotate-90 min-w-8" strokeWidth={1}/>
-                    <p>Controle de pedidos e mercadorias através do sistema ERP PROTHEUS da TOTVS</p>
-                </div>
-                
+               
             </article>
         </article>
     </section>
