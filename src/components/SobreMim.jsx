@@ -24,23 +24,23 @@ export default function SobreMim() {
             
             <div className="flex">
                 <div className="flex flex-wrap gap-4 mt-5 justify-center">
-                    <div className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full">
+                    <div className="bg-white text-black flex items-center gap-1 font-semibold p-2 px-3 rounded-full">
                         <Image src={"/images/002-money.png"} alt={"Figura de um pacote de dinheiro"} width={25} height={25}/>
                         <p>Dinheiro</p>
                     </div>
-                    <div className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full">
+                    <div className="bg-white text-black flex items-center gap-1 font-semibold p-2 px-3 rounded-full">
                         <Image src={"/images/001-beach-umbrella.png"} alt={`Figura de praia `} width={25} height={25}/>
                         <p>Praia</p>
                     </div>
-                    <div className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full">
+                    <div className="bg-white text-black flex items-center gap-1 font-semibold p-2 px-3 rounded-full">
                         <Image src={"/images/003-football.png"} alt={"Figura de uma bola de futebol"} width={25} height={25}/>
                         <p>Futebol</p>
                     </div>
-                    <div className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full">
+                    <div className="bg-white text-black flex items-center gap-1 font-semibold p-2 px-3 rounded-full">
                         <Image src={"/images/004-headphone.png"} alt={"Figura de fone de ouvido"} width={25} height={25}/>
                         <p>musica</p>
                     </div>
-                    <div className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full">
+                    <div className="bg-white text-black flex items-center gap-1 font-semibold p-2 px-3 rounded-full">
                         <Image src={"/images/005-joystick.png"} alt={"Figura de um controle de video game"} width={25} height={25}/>
                         <p>Video game</p>
                     </div>

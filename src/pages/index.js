@@ -3,6 +3,7 @@ import Experiencia from "@/components/Experiencia";
 import Formacao from "@/components/Formacao";
 import Inicio from "@/components/Inicio";
 import SobreMim from "@/components/SobreMim";
+import Stacks from "@/components/Stacks";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
         <Formacao />
         <Experiencia />
         <Certificados />
+        <Stacks />
       </main>
     </>
   );

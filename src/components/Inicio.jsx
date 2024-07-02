@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Download } from 'lucide-react'
-import { stackDados } from '@/api/stacks'
+
 
 export default function Inicio() {
 
@@ -14,15 +14,15 @@ export default function Inicio() {
               <h1 className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-center ">Olá, sou o <span className="text-amber-400 ">Kauê Evangelista</span></h1>
               <h2 className="text-center xl:text-4xl lg:text-3xl sm:text-2xl text-lg font-semibold">Desenvolvedor Web</h2>
               <div className="flex gap-5 mt-5 flex-wrap justify-center">
-                <a className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full shadow-sm" href={"https://github.com/kaue-S"} target='blank'>
+                <a className="bg-white text-black flex items-center gap-1 font-semibold p-2 px-3 rounded-full shadow-sm" href={"https://github.com/kaue-S"} target='blank'>
                     <Image src={"/images/github.png"} alt={"Figura do github"} width={25} height={25}/>
                     <p>GitHub</p>
                 </a>
-                <a className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full" href={"https://www.linkedin.com/in/kau%C3%AA-evangelista/"} target='blank'>
-                    <Image src={"/images/002-money.png"} alt={"Icone do Linkedin"} width={25} height={25}/>
+                <a className="bg-white text-black flex items-center gap-1 font-semibold p-2 px-3 rounded-full" href={"https://www.linkedin.com/in/kau%C3%AA-evangelista/"} target='blank'>
+                    <Image src={"/images/linkedin.png"} alt={"Icone do Linkedin"} width={25} height={25}/>
                     <p>LinkedIn</p>
                 </a>
-                <a className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full" href={"https://www.instagram.com/kauesilva5/"} target='blank'>
+                <a className="bg-white text-black flex items-center gap-1 font-semibold p-2 px-3 rounded-full" href={"https://www.instagram.com/kauesilva5/"} target='blank'>
                     <Image src={"/images/instagram.png"} alt={"logotipo do instagram"} width={25} height={25}/>
                     <p>Instagram</p>
                 </a>
@@ -41,17 +41,7 @@ export default function Inicio() {
               </figure>
             </div>
       </article>
-      {/* <article className="flex flex-wrap justify-center gap-6">
-
-        {stackDados.map((item, index) =>(
-          <div className="bg-white text-black flex items-center gap-1 font-semibold p-3 rounded-full" key={index}>
-            <Image src={item.icone} alt={`icone do ${item.nome}`} width={25} height={25}/>
-            <p>
-              {item.nome}
-            </p>
-          </div>
-        ))}
-      </article> */}
+     
     </section>
   )
 }
