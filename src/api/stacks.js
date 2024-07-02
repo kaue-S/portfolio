@@ -4,6 +4,10 @@ export const stackDados= [
       "icone": "/images/react.svg"
     },
     {
+      "nome": "React Native",
+      "icone": "/images/react.svg"
+    },
+    {
       "nome": "Javascript",
       "icone": "/images/javascript-js.svg"
     },
