@@ -19,13 +19,13 @@ export default function Formacao() {
 
         <div className="flex gap-2 items-center mb-5">
           <div className="">
-            <Image src={"/images/school.png"} width={30} height={30} alt='figura de escola' className="text-amber-400 tag "/>
+            <Image src={"/images/school.png"} width={30} height={30} alt='figura de escola' className="text-amber-400"/>
           </div>
           <p className="text-black font-semibold">Senac</p>
         </div>
 
         <div className="flex gap-2 items-center">
-          <div className=""><Image src={"/images/gps.png"} alt='icone localização' width={30} height={30} className="text-amber-400 tag"/></div>
+          <div className=""><Image src={"/images/gps.png"} alt='icone localização' width={30} height={30} className="text-amber-400"/></div>
           <p className="text-black font-semibold">São Paulo - SP</p>
         </div>
 

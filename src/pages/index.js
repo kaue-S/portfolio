@@ -1,3 +1,4 @@
+import Certificados from "@/components/Certificados";
 import Experiencia from "@/components/Experiencia";
 import Formacao from "@/components/Formacao";
 import Inicio from "@/components/Inicio";
@@ -11,6 +12,7 @@ export default function Home() {
         <SobreMim />
         <Formacao />
         <Experiencia />
+        <Certificados />
       </main>
     </>
   );
