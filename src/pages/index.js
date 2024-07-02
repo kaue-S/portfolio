@@ -2,6 +2,7 @@ import Certificados from "@/components/Certificados";
 import Experiencia from "@/components/Experiencia";
 import Formacao from "@/components/Formacao";
 import Inicio from "@/components/Inicio";
+import Projetos from "@/components/Projetos";
 import SobreMim from "@/components/SobreMim";
 import Stacks from "@/components/Stacks";
 
@@ -15,6 +16,7 @@ export default function Home() {
         <Experiencia />
         <Certificados />
         <Stacks />
+        <Projetos />
       </main>
     </>
   );
