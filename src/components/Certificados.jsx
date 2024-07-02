@@ -12,8 +12,8 @@ export default function Certificados() {
             <h1 className=" absolute xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-amber-400 tracking-wide">Certificados</h1>
         </div>
 
-        <div className="mt-10 lg:w-4/5 m-auto">
-            <article className=" bg-slate-50 rounded-3xl p-6">
+        <div className="mt-10 sm:w-4/5 m-auto flex max-lg:flex-col lg:flex lg:flex-wrap lg:justify-around gap-10 xl:px-5">
+            <article className=" bg-slate-50 rounded-3xl p-6 lg:w-[45%]">
                 <div className="flex items-center flex-wrap justify-between gap-5">
                     <figure className="bg-black flex items-center rounded-full p-1 pr-3 gap-2 justify-around shadow-lg">
                         <Image src={"/images/senac1.png"} alt="logotipo da instituição senac" width={50} height={55} className="rounded-full bg-white"/>
@@ -32,7 +32,7 @@ export default function Certificados() {
                 </a>
             </article>
 
-            <article className="bg-slate-50 rounded-3xl p-6">
+            <article className="bg-slate-50 rounded-3xl p-6 lg:w-[45%]">
                 <div className="flex items-center flex-wrap justify-between gap-5">
                     <figure className="bg-black flex items-center rounded-full p-1 pr-3 gap-2 justify-around shadow-lg">
                         <Image src={"/images/senac1.png"} alt="logotipo da instituição senac" width={50} height={55} className="rounded-full bg-white"/>
@@ -51,7 +51,7 @@ export default function Certificados() {
                 </a>
             </article>
 
-            <article className=" bg-slate-50 rounded-3xl p-6">
+            <article className=" bg-slate-50 rounded-3xl p-6 lg:w-[45%]" >
                 <div className="flex items-center flex-wrap justify-between gap-5">
                     <figure className="bg-black flex items-center rounded-full p-1 pr-3 gap-2 justify-around shadow-lg">
                         <Image src={"/images/senac1.png"} alt="logotipo da instituição senac" width={50} height={55} className="rounded-full bg-white"/>
