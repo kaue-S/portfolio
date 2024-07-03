@@ -12,7 +12,7 @@ export default function Stacks() {
 
         <article className="mt-10 sm:w-4/5 m-auto">
             <article className="flex flex-wrap justify-center gap-6">
-
+              
                 {stackDados.map((item, index) =>(
                 <div className="bg-white text-black flex items-center gap-2 font-semibold p-2 px-3 rounded-full" key={index}>
                     <Image src={item.icone} alt={`icone do ${item.nome}`} width={25} height={25}/>

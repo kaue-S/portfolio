@@ -21,10 +21,11 @@ export default function Experiencia() {
                         </figcaption>
                 </figure>
                     
-                <p className="text-black flex items-center border text-center rounded-full p-2 bg-amber-200 shadow-lg font-bold">
+                <div className="text-black flex items-center border text-center rounded-full p-2 bg-amber-200 shadow-lg font-bold">
                     <CalendarDays />
-                    <time className="mx-1" datetime="2013-07">Jul 2013</time> - <time className="ml-1" datetime="2020-12">Dez 2020</time>
-                </p>
+                    <p className="mx-1">Jul 2013</p>-
+                    <p className="ml-1">Dez 2020</p>
+                </div>
             </div>
 
             <figure className="mt-5 mb-5 flex items-center gap-1">
@@ -65,10 +66,11 @@ export default function Experiencia() {
                         </figcaption>
                 </figure>
                     
-                <p className="text-black flex items-center border text-center rounded-full p-2 bg-amber-200 shadow-lg font-bold">
+                <div className="text-black flex items-center border text-center rounded-full p-2 bg-amber-200 shadow-lg font-bold">
                     <CalendarDays />
-                    <time className="mx-1" datetime="2013-07">Dez 2020</time> - <time className="ml-1" datetime="2020-12">atualmente</time>
-                </p>
+                    <p className="mx-1">Jul 2013</p>-
+                    <p className="ml-1">Dez 2020</p>
+                </div>
             </div>
 
             <figure className="mt-5 mb-5 flex items-center gap-1">
