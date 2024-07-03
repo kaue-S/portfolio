@@ -17,7 +17,7 @@ export default function Projetos() {
         </div>
 
         <div className="rounded-3xl  mt-10 sm:w-4/5 m-auto">
-        <article className="md:p-5 p-3 bg-blue-800 bg-opacity-80 lg:flex rounded-3xl lg:gap-5">
+        <article className="md:p-5 p-3 bg-blue-800 bg-opacity-70 lg:flex rounded-3xl lg:gap-5">
                 <div className="rounded-3xl max-sm:w-full bg-blue-600 flex justify-center md:p-5 p-2 lg:w-2/5 xl:w-2/5">
                     <div className="lg:w-1/3 mr-3 ">
                         <div className="flex justify-center items-center gap-1 mb-2 "> 
