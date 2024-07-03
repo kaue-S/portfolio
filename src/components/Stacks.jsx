@@ -11,7 +11,7 @@ export default function Stacks() {
         </div>
 
         <article className="mt-10 sm:w-4/5 m-auto">
-            <article className="flex flex-wrap justify-center gap-6">
+            <article className="flex flex-wrap justify-center gap-2">
               
                 {stackDados.map((item, index) =>(
                 <div className="bg-white text-black flex items-center gap-2 font-semibold p-2 px-3 rounded-full" key={index}>
