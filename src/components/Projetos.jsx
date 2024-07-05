@@ -19,22 +19,15 @@ export default function Projetos() {
         <div className="rounded-3xl  mt-10 xl:w-4/5 m-auto">
         <article className="md:p-5 p-3 bg-blue-800 bg-opacity-70 flex max-md:flex-wrap rounded-3xl gap-5">
             
-                <div className="rounded-3xl max-md:m-auto w-full bg-blue-600 flex p-5 md:min-w-96 md:max-w-96 md:max-h-96 md:min-h-96">
-                    {/* <div className="lg:w-1/3 mr-3 ">
-                        <div className="flex justify-center items-center gap-1 mb-2 "> 
-                            <Image className="max-[410px]:w-4" src={"/projetos/logo-petshop.png"} width={25} height={25} alt="aasdasdasd"/>
-                            <p className="text-center font-semibold">Petshop</p>
-                        </div>
-                        <Image className="rounded-md w-full  m-auto" src={"/projetos/petshop-mobile.png"} alt="tetet" width={500} height={500}/>
-                    </div> */}
+                <div className="rounded-3xl max-md:m-auto bg-blue-600 flex flex-wrap p-5 md:min-w-96 md:max-w-96 md:max-h-96 md:min-h-96">
                     <Image className="rounded-2xl w-full" src={"/projetos/petshop2.png"} alt="tetet" width={500} height={500}/>
                 </div>
 
                 <div className=" lg:w-3/5 xl:w-3/5 flex flex-col justify-around " >
-                    <h1 className="lg:text-4xl text-3xl font-semibold mb-6">Blog Petshop</h1>
+                    <h1 className="lg:text-4xl text-3xl font-semibold mb-6 flex gap-1 items-center"> <Image className="max-[410px]:w-4" src={"/projetos/logo-petshop.png"} width={25} height={25} alt="aasdasdasd"/>Blog Petshop</h1>
 
 
-                    <h2 className="text-2xl font-semibold mb-2">Tipo</h2>
+                    <h2 className="text-2xl font-semibold mb-2">Tipo de projeto</h2>
                     <div className="flex gap-2 mb-10">
                         <p className="bg-green-300 text-black flex items-center font-semibold p-2 px-3 rounded-full text-sm">Web</p>
                         <p className="bg-green-300 text-black flex items-center font-semibold p-2 px-3 rounded-full text-sm">PWA</p>
