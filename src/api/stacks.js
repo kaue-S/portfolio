@@ -24,12 +24,12 @@ export const stackDados= [
       "icone": "/images/php.svg"
     },
     {
-      "nome": "React Hook Form",
-      "icone": "/images/react-hook-form-logo-only.png"
-    },
-    {
       "nome": "Firebase",
       "icone": "/images/file-type-firebase.svg"
+    },
+    {
+      "nome": "React Hook Form",
+      "icone": "/images/react-hook-form-logo-only.png"
     },
     {
       "nome": "Tailwind CSS",
