@@ -30,7 +30,7 @@ export default function Inicio() {
 
               <a className='mt-10 animate-bounce' href="/images/curriculo.pdf" download>
                 <button className='flex gap-2 items-center font-semibold text-amber-400 p-3 rounded-full border-2 border-amber-400 hover:text-black bg-amber-400 bg-opacity-30 hover:bg-amber-400 hover:transition-colors'>
-                <Download /> Currículo
+                <Download /> Baixar CV
                 </button>
               </a>
             </div>

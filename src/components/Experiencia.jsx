@@ -33,7 +33,7 @@ export default function Experiencia() {
                 <figcaption><h2 className="font-bold text-lg text-black">Auxiliar de Expedição</h2></figcaption>
             </figure>
      
-            <article className="flex flex-col gap-5  text-black">
+            <article className="flex flex-col gap-5 text-black pl-3">
                 <div className='flex items-start'>
                     <Triangle className="rotate-90 min-w-8" strokeWidth={1}/>
                     <p>Separação de mercadorias e empacotamento</p>
@@ -78,7 +78,7 @@ export default function Experiencia() {
                 <figcaption><h2 className="font-bold text-lg text-black">Auxiliar de Expedição</h2></figcaption>
             </figure>
      
-            <article className="flex flex-col gap-5  text-black">
+            <article className="flex flex-col gap-5  text-black pl-3">
                 <div className='flex items-start'>
                     <Triangle className="rotate-90 min-w-8" strokeWidth={1}/>
                     <p>Atualmente trabalhando com entrega de itens entre usuários (uber / 99)</p>
