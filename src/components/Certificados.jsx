@@ -8,8 +8,8 @@ export default function Certificados() {
   return (
     <section className="mb-10 mt-20 lg:mt-40 ">
         <div className=" relative flex justify-center mt-16 ">
-            <span className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Certificados</span>
-            <h1 className=" absolute xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-amber-400 tracking-wide">Certificados</h1>
+            <span className="xl:text-5xl lg:text-4xl sm:text-3xl text-3xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Certificados</span>
+            <h1 className=" absolute xl:text-5xl lg:text-4xl sm:text-3xl text-3xl font-bold text-amber-400 tracking-wide">Certificados</h1>
         </div>
 
         <div className="mt-10 sm:w-4/5 m-auto flex max-lg:flex-col lg:flex lg:flex-wrap lg:justify-around gap-10 xl:px-5">

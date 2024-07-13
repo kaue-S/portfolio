@@ -4,10 +4,10 @@ import React from 'react'
 export default function SobreMim() {
   return (
     <section className="mt-20 md:mt-40 lg:w-4/5 m-auto mb-20">
-        <div className=" relative flex justify-center sm:mt-10 lg:mt-28">
-            <span className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Sobre Mim</span>
-            <h1 className=" absolute xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-amber-400 tracking-wide">Sobre Mim</h1>
-        </div>
+        <div className=" relative flex justify-center mt-16 ">
+        <span className="xl:text-5xl lg:text-4xl sm:text-3xl text-3xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Sobre mim</span>
+        <h1 className=" absolute xl:text-5xl lg:text-4xl sm:text-3xl text-3xl font-bold text-amber-400 tracking-wide">Sobre mim</h1>
+      </div>
 
         <article className=" mt-10 sobreMim p-3 md:p-10 rounded-2xl">
             <div className='flex items-center gap-5 '>
@@ -17,8 +17,8 @@ export default function SobreMim() {
                     </figure>
                 </div>
                 <div className=" relative flex justify-center">
-                    <span className="xl:text-4xl lg:text-3xl sm:text-2xl text-xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Gosto de</span>
-                    <h1 className=" absolute xl:text-4xl lg:text-3xl sm:text-2xl text-xl font-bold text-amber-400 tracking-wide">Gosto de</h1>
+                    <span className="xl:text-4xl lg:text-3xl sm:text-2xl text-2xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Gosto de</span>
+                    <h1 className=" absolute xl:text-4xl lg:text-3xl sm:text-2xl text-2xl font-bold text-amber-400 tracking-wide">Gosto de</h1>
                 </div> 
             </div>
             

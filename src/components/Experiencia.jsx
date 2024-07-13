@@ -8,8 +8,8 @@ export default function Experiencia() {
   return (
     <section className='mb-10 lg:mt-40 '>
         <div className=" relative flex justify-center mt-16 ">
-            <span className="xl:text-5xl lg:text-4xl sm:text-3xl text-2xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Experiência</span>
-            <h1 className=" absolute xl:text-5xl lg:text-4xl sm:text-3xl text-2xl font-bold text-amber-400 tracking-wide">Experiência</h1>
+            <span className="xl:text-5xl lg:text-4xl sm:text-3xl text-3xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Experiência</span>
+            <h1 className=" absolute xl:text-5xl lg:text-4xl sm:text-3xl text-3xl font-bold text-amber-400 tracking-wide">Experiência</h1>
         </div>
 
         <article className="bg-white p-4 md:p-6 rounded-3xl lg:w-4/5 m-auto mt-10">
