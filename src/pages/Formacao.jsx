@@ -4,7 +4,7 @@ import React from 'react'
 
 export default function Formacao() {
   return (
-    <section className="m-auto mb-20 lg:mt-40">
+    <section className="m-auto mb-20 lg:mt-40" id="formacao">
       <div className=" relative flex justify-center mt-16 ">
         <span className="xl:text-5xl lg:text-4xl sm:text-3xl text-3xl text-transparent font-bold tracking-wider text-stroke text-stroke-laranja">Formação</span>
         <h1 className=" absolute xl:text-5xl lg:text-4xl sm:text-3xl text-3xl font-bold text-amber-400 tracking-wide">Formação</h1>

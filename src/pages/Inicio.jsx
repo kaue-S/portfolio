@@ -6,7 +6,7 @@ import { Download } from 'lucide-react'
 export default function Inicio() {
 
   return (
-    <section className="mb-10 lg:mt-64">
+    <section className="mb-10 lg:mt-64" id="inicio">
 
       <article  className="flex flex-col-reverse md:flex-row justify-center items-center gap-7 md:gap-20">
             <div className="flex flex-col items-center justify-center lg:gap-3">
