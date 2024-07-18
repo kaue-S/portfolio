@@ -17,7 +17,7 @@ export default function Navegacao() {
             <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={"/"}>Inicio</Link></li>
             <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={"#sobre"}>Sobre</Link></li>
             <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={"#formacao"}>Formação</Link></li>
-            <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={"projetos"}>Projetos</Link></li>
+            <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={"#projetos"}>Projetos</Link></li>
             <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={"#certificados"}>Certificados</Link></li>
             <li className="hover:bg-amber-400 px-3 rounded-md hover:shadow-md"><Link href={""}>Contato</Link></li>
         </ul>
@@ -28,13 +28,13 @@ export default function Navegacao() {
       </button>
 
       {menuAberto && (
-        <nav className="bg-white absolute top-0 mt-14 lg:mr-40 mr-12 right-0 w-60 h-80 shadow-md border animate-flip-down z-50">
+        <nav className="bg-white absolute top-0 mt-14 lg:mr-40 mr-12 right-0 w-60 h-80 shadow-md border animate-flip-down z-50 xl:hidden">
           <ul className="flex flex-col justify-around text-start h-full text-xl font-semibold text-black">
-              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><House /> Inicio</Link></li>
-              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><UserRound /> Sobre</Link></li>
-              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><GraduationCap /> Formação</Link></li>
-              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><Laptop /> Projetos</Link></li>
-              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><GraduationCap />Certificados</Link></li>
+              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={"/"}><House /> Inicio</Link></li>
+              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={"#sobre"}><UserRound /> Sobre</Link></li>
+              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={"#formacao"}><GraduationCap /> Formação</Link></li>
+              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={"#projetos"}><Laptop /> Projetos</Link></li>
+              <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={"#certificados"}><GraduationCap />Certificados</Link></li>
               <li className="py-3 hover:bg-amber-400"><Link className="pl-8 flex gap-4" href={""}><Mail /> Contato</Link></li>
           </ul>
         </nav>
